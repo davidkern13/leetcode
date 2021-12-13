@@ -1,6 +1,6 @@
 # leetcode
 
-Two Sum
+### Two Sum
 
 ```Javascript
 
@@ -25,7 +25,7 @@ const twoSum = function(nums, target) {
 
 ```
 
-fibonacci-number
+###  fibonacci-number
 
 ```Javascript
 
@@ -41,7 +41,7 @@ const fib = function(n) {
 
 ```
 
-Binary Search
+###  Binary Search
 
 ```Javascript
 
@@ -66,7 +66,8 @@ const search = function(nums, target) {
 };
 
 ```
-Minimum Value to Get Positive Step by Step Sum
+
+###  Minimum Value to Get Positive Step by Step Sum
 
 ```Javascript
 
@@ -94,7 +95,7 @@ var minStartValue = function(nums) {
 
 ```
 
-Palindrome Number
+###  Palindrome Number
 
 ```Javascript
 
@@ -115,7 +116,7 @@ var isPalindrome = function(num) {
 
 ```
 
-Remove Duplicates from Sorted Array
+###  Remove Duplicates from Sorted Array
 
 ```Javascript
 
@@ -139,7 +140,7 @@ var removeDuplicates = function(nums) {
 
 ```
 
-Remove Element
+###  Remove Element
 
 ```Javascript
 
@@ -161,7 +162,7 @@ var removeElement = function(nums, val) {
 
 ```
 
-Search Insert Position
+###  Search Insert Position
 
 ```Javascript
 
@@ -187,7 +188,7 @@ var searchInsert = function(nums, target) {
 
 ```
 
-Best Time to Buy and Sell Stock
+###  Best Time to Buy and Sell Stock
 
 ```Javascript
 
@@ -214,6 +215,32 @@ var maxProfit = function(prices) {
     }
      
     return profit;
+};
+
+```
+
+###  Implement strStr()
+
+```Javascript
+
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
+
+var strStr = function(haystack, needle) {
+    let haystackLength = haystack.length;
+    let needleLength = needle.length;
+
+    if(haystackLength < needleLength) return -1;
+
+    for(let i = 0; i <= haystackLength-needleLength; i++){
+        if(haystack.substring(i, i+needleLength) == (needle)){
+           return i;
+        }
+    }
+    return -1;
 };
 
 ```
