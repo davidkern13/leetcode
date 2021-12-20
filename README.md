@@ -262,3 +262,37 @@ var maxIceCream = function(costs, coins) {
 };
 
 ```
+
+
+
+###  Minimum Absolute Difference
+
+```Javascript
+
+const diff = (a, b) => {
+    return (a > b) ? (a - b) : (b - a);
+}
+
+var minimumAbsDifference = function(arr) {
+    
+    let array = [];
+    let temp = Infinity;
+    
+    arr = arr.sort((a,b) => a - b);
+    
+    for(let i = 0; i < arr.length; i++){
+        
+        let diff_v = diff(arr[i], arr[i+1]);
+        
+        if(temp == diff_v){
+            array.push([arr[i], arr[i+1]]);
+        }else if(diff_v < temp){
+            array = [];
+            array.push([arr[i], arr[i+1]]);
+            temp = diff_v;
+        }
+    }
+    return array;
+};
+
+```
