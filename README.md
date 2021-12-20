@@ -244,3 +244,21 @@ var strStr = function(haystack, needle) {
 };
 
 ```
+
+###  Maximum Ice Cream Bars
+
+```Javascript
+
+var maxIceCream = function(costs, coins) {
+    let output = 0;
+    costs = costs.sort((a,b) => a - b);
+    costs.forEach( (icecream) => {
+        if(coins >= icecream){
+           output += 1;
+           coins -= icecream;
+        }
+    });
+    return output;
+};
+
+```
