@@ -1,6 +1,6 @@
 # leetcode
 
-[Two Sum](README.md#L10)
+[Two Sum](README.md#L101)
 
 
 
