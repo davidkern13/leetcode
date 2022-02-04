@@ -1,10 +1,18 @@
 # leetcode
-*{scroll-behavior: smooth;}
 
-<a href="#Two-Sum">Two-Sum<a/>
-<a href="#Fibonacci-Number">Fibonacci-Number<a/>
-<a href="#Binary-Search">Binary-Search<a/>
-    
+<a href="#Two-Sum">Two-Sum<a/> </br>
+<a href="#Fibonacci-Number">Fibonacci-Number<a/> </br>
+<a href="#Binary-Search">Binary-Search<a/> </br>
+<a href="#MV">Minimum Value to Get Positive Step by Step Sum<a/> </br>
+<a href="#Palindrome-Number">Palindrome-Number<a/> </br>
+<a href="#Remove-Duplicates-from-Sorted-Array">Remove-Duplicates-from-Sorted-Array<a/> </br>
+<a href="#Remove-Element">Remove-Element<a/> </br>
+<a href="#Search-Insert-Position">Search-Insert-Position<a/> </br>
+<a href="#Best-Time-to-Buy">Best-Time-to-Buy<a/> </br>
+<a href="#Binary-Search">Binary-Search<a/> </br>
+<a href="#Binary-Search">Binary-Search<a/> </br>
+<a href="#Binary-Search">Binary-Search<a/> </br>
+
 <section id="Two-Sum">
 <h3>Two Sum</h3>
 </section>
@@ -109,7 +117,9 @@ var minStartValue = function(nums) {
 
 ```
 
-###  Palindrome Number
+<section id="Palindrome-Number">
+<h3>Palindrome Number</h3>
+</section>
 
 ```Javascript
 
@@ -130,7 +140,9 @@ var isPalindrome = function(num) {
 
 ```
 
-###  Remove Duplicates from Sorted Array
+<section id="Remove-Duplicates-from-Sorted-Array">
+<h3>Remove Duplicates from Sorted Array</h3>
+</section>
 
 ```Javascript
 
@@ -154,7 +166,9 @@ var removeDuplicates = function(nums) {
 
 ```
 
-###  Remove Element
+<section id="Remove-Element">
+<h3>Remove-Element</h3>
+</section>
 
 ```Javascript
 
@@ -177,6 +191,10 @@ var removeElement = function(nums, val) {
 ```
 
 ###  Search Insert Position
+
+<section id="Search-Insert-Position">
+<h3>Search Insert Position</h3>
+</section>
 
 ```Javascript
 
@@ -202,7 +220,9 @@ var searchInsert = function(nums, target) {
 
 ```
 
-###  Best Time to Buy and Sell Stock
+<section id="Best-Time-to-Buy">
+<h3>Best Time to Buy and Sell Stock</h3>
+</section>
 
 ```Javascript
 
