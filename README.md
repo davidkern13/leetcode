@@ -351,3 +351,24 @@ LRUCache.prototype.put = function(key, value) {
  */
  
  ```
+ 
+ ### Maximum Depth of Binary Tree
+ 
+ ```Javascript
+ 
+ let maxDepth = function(node) {
+    let data = mDepth(node);
+    return data;
+};
+
+let mDepth = (node) => {
+    if(node == null) {
+        return null;
+    }
+    let left = mDepth(node.left) + 1;
+    let right = mDepth(node.right) + 1;
+    
+    return right > left ? right : left;
+}
+
+```
