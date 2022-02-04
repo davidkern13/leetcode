@@ -1,5 +1,8 @@
 # leetcode
 
+[Remove](#Remove)
+
+
 ### Two Sum
 
 ```Javascript
