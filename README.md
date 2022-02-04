@@ -8,7 +8,7 @@
 <a href="#Remove-Duplicates-from-Sorted-Array">Remove-Duplicates-from-Sorted-Array<a/> </br>
 <a href="#Remove-Element">Remove-Element<a/> </br>
 <a href="#Search-Insert-Position">Search-Insert-Position<a/> </br>
-<a href="#Best-Time-to-Buy">Best-Time-to-Buy<a/> </br>
+<a href="#Best-Time-to-Buy">Best Time to Buy and Sell Stock<a/> </br>
 <a href="#Binary-Search">Binary-Search<a/> </br>
 <a href="#Binary-Search">Binary-Search<a/> </br>
 <a href="#Binary-Search">Binary-Search<a/> </br>
