@@ -1,9 +1,13 @@
 # leetcode
+*{scroll-behavior: smooth;}
 
-[Remove](#Remove)
-
-
-### Two Sum
+<a href="#Two-Sum">Two-Sum<a/>
+<a href="#Fibonacci-Number">Fibonacci-Number<a/>
+<a href="#Binary-Search">Binary-Search<a/>
+    
+<section id="Two-Sum">
+<h3>Two Sum</h3>
+</section>
 
 ```Javascript
 
@@ -28,7 +32,10 @@ const twoSum = function(nums, target) {
 
 ```
 
-###  fibonacci-number
+<section id="Fibonacci-Number">
+<h3>Fibonacci-Number</h3>
+</section>
+
 
 ```Javascript
 
@@ -44,7 +51,9 @@ const fib = function(n) {
 
 ```
 
-###  Binary Search
+<section id="Binary-Search">
+<h3>Binary Search</h3>
+</section>
 
 ```Javascript
 
@@ -70,7 +79,9 @@ const search = function(nums, target) {
 
 ```
 
-###  Minimum Value to Get Positive Step by Step Sum
+<section id="MV">
+<h3>Minimum Value to Get Positive Step by Step Sum</h3>
+</section>
 
 ```Javascript
 
