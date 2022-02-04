@@ -1,5 +1,12 @@
 # leetcode
 
+[Two Sum](README.md#L10)
+
+
+
+
+
+
 ### Two Sum
 
 ```Javascript
