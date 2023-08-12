@@ -11,9 +11,9 @@
 <a href="#Best-Time-to-Buy">Best Time to Buy and Sell Stock<a/> </br>
 <a href="#Implement-strStr()">Implement strStr()<a/> </br>
 <a href="#Maximum-Ice-Cream-Bars">Maximum Ice Cream Bars<a/> </br>
-<a href="#Minimum-Absolute-Difference"><a/>Minimum Absolute Difference</br>
-<a href="#LRU-Cache"><a/>LRU Cache</br>
-<a href="#Maximum-Depth-of-Binary-Tree"><a/>Maximum Depth of Binary Tree</br>
+<a href="#Minimum-Absolute-Difference">Minimum Absolute Difference<a/></br>
+<a href="#LRU-Cache">LRU Cache<a/></br>
+<a href="#Maximum-Depth-of-Binary-Tree">Maximum Depth of Binary Tree<a/></br>
 <a href="#Intersection-of-Two-Arrays">Intersection of Two Arrays<a/></br>
 <a href="#"><a/> </br>
 <a href="#"><a/> </br>
