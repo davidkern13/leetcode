@@ -9,9 +9,14 @@
 <a href="#Remove-Element">Remove-Element<a/> </br>
 <a href="#Search-Insert-Position">Search-Insert-Position<a/> </br>
 <a href="#Best-Time-to-Buy">Best Time to Buy and Sell Stock<a/> </br>
-<a href="#Binary-Search">Binary-Search<a/> </br>
-<a href="#Binary-Search">Binary-Search<a/> </br>
-<a href="#Binary-Search">Binary-Search<a/> </br>
+<a href="#Implement-strStr()">Implement strStr()<a/> </br>
+<a href="#Maximum-Ice-Cream-Bars">Maximum Ice Cream Bars<a/> </br>
+<a href="#Minimum-Absolute-Difference"><a/>Minimum Absolute Difference</br>
+<a href="#LRU-Cache"><a/>LRU Cache</br>
+<a href="#Maximum-Depth-of-Binary-Tree"><a/>Maximum Depth of Binary Tree</br>
+<a href="#Intersection-of-Two-Arrays">Intersection of Two Arrays<a/></br>
+<a href="#"><a/> </br>
+<a href="#"><a/> </br>
 
 <section id="Two-Sum">
 <h3>Two Sum</h3>
@@ -253,7 +258,9 @@ var maxProfit = function(prices) {
 
 ```
 
-###  Implement strStr()
+<section id="Implement-strStr()">
+<h3></h3>
+</section>
 
 ```Javascript
 
@@ -279,7 +286,9 @@ var strStr = function(haystack, needle) {
 
 ```
 
-###  Maximum Ice Cream Bars
+<section id="Maximum-Ice-Cream-Bars">
+<h3>Maximum Ice Cream Bars</h3>
+</section>
 
 ```Javascript
 
@@ -297,9 +306,9 @@ var maxIceCream = function(costs, coins) {
 
 ```
 
-
-
-###  Minimum Absolute Difference
+<section id="Minimum-Absolute-Difference">
+<h3>Minimum Absolute Difference</h3>
+</section>
 
 ```Javascript
 
@@ -331,7 +340,9 @@ var minimumAbsDifference = function(arr) {
 
 ```
 
-###  LRU Cache
+<section id="LRU-Cache">
+<h3>LRU Cache</h3>
+</section>
 
 ```Javascript
 
@@ -385,8 +396,10 @@ LRUCache.prototype.put = function(key, value) {
  */
  
  ```
- 
- ### Maximum Depth of Binary Tree
+
+ <section id="Maximum-Depth-of-Binary-Tree">
+ <h3>Maximum Depth of Binary Tree</h3>
+ </section>
  
  ```Javascript
  
@@ -404,5 +417,26 @@ let mDepth = (node) => {
     
     return right > left ? right : left;
 }
+
+```
+
+ <section id="Intersection-of-Two-Arrays">
+ <h3>Intersection of Two Arrays</h3>
+ </section>
+
+ ```Javascript
+
+var intersection = function(nums1, nums2) {
+    const arr = [];
+
+    const length = nums1.length > nums2.length ? nums1.length : nums2.length;
+    for(let i = 0; i <= length; i++){
+       if(nums2.includes(nums1[i]) && !arr.includes(nums1[i])){
+        arr.push(nums1[i]);
+       }
+    }
+		console.log(arr);
+    
+};
 
 ```
