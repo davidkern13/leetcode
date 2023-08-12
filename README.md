@@ -429,12 +429,12 @@ let mDepth = (node) => {
 var intersection = function(nums1, nums2) {
     const arr = [];
 
-    const length = nums1.length > nums2.length ? nums1.length : nums2.length;
-    for(let i = 0; i <= length; i++){
+    for(let i = 0; i <= nums1.length; i++){
        if(nums2.includes(nums1[i]) && !arr.includes(nums1[i])){
         arr.push(nums1[i]);
        }
     }
+	
     return arr;
 };
 
