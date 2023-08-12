@@ -435,8 +435,7 @@ var intersection = function(nums1, nums2) {
         arr.push(nums1[i]);
        }
     }
-		console.log(arr);
-    
+    return arr;
 };
 
 ```
