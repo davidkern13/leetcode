@@ -15,7 +15,7 @@
 <a href="#LRU-Cache">LRU Cache<a/></br>
 <a href="#Maximum-Depth-of-Binary-Tree">Maximum Depth of Binary Tree<a/></br>
 <a href="#Intersection-of-Two-Arrays">Intersection of Two Arrays<a/></br>
-<a href="#"><a/> </br>
+<a href="#Merge-Sorted-Array">Merge Sorted Array<a/> </br>
 <a href="#"><a/> </br>
 
 <section id="Two-Sum">
@@ -437,6 +437,25 @@ var intersection = function(nums1, nums2) {
     }
 		console.log(arr);
     
+};
+
+```
+
+ <section id="Merge-Sorted-Array">
+ <h3>Merge Sorted Array</h3>
+ </section>
+
+```javascript
+
+var merge = function(nums1, m, nums2, n) {
+    nums1.length = m;
+    nums2.length = n;
+
+    for (let i = 0; i < n; i++) {
+      nums1.push(nums2[i]);
+    }
+
+    nums1.sort((a, b) => a - b);
 };
 
 ```
